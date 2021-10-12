@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-page">
+      <section class="stats">
+        <figure class="stats__figure">
+          <img
+            class="stats__image stats__image--desktop"
+            src="images/image-header-desktop.jpg"
+          />
+          <img
+            class="stats__image stats__image--mobile"
+            src="images/image-header-mobile.jpg"
+          />
+        </figure>
+        <div class="stats__wrapper">
+          <h1 class="stats__heading">
+            Get <span class="stats__heading--accent">insights</span> that help
+            your business grow.
+          </h1>
+          <p class="stats__description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <table class="stats__list">
+            <tbody class="stats__body">
+              <tr>
+                <td class="stats__value">10k+</td>
+                <th class="stats__name">companies</th>
+              </tr>
+              <tr>
+                <td class="stats__value">314</td>
+                <th class="stats__name">templates</th>
+              </tr>
+              <tr>
+                <td class="stats__value">12M+</td>
+                <th class="stats__name">queries</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://max-makk.github.io">Max Makk</a>.
+      </div>
+    </main>
+  </body>
+</html>
